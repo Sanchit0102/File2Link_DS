@@ -25,12 +25,12 @@ async def start(b, m):
     usr_cmd = m.text.split("_")[-1]
     if usr_cmd == "/start":
         await m.reply_photo(
-            photo="https://te.legra.ph/file/1952edc669d200839995d.jpg",
+            photo="https://telegra.ph/file/8a5b34b684b753d8cf4c0.jpg",
             caption="**ʜᴇʟʟᴏ...⚡\n\nɪ ᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /help ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛsɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀᴢ...**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/the_silent_teams"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/+wiPJ72U29pw3NDQ1")],
-                    [InlineKeyboardButton("OWNER", url="https://t.me/Robo_5_0"), InlineKeyboardButton("💠Latest Movies", url="https://t.me/+9bpv69G2aPMyNjFl")],
+                    [InlineKeyboardButton("OWNER", url="https://t.me/THE_DS_OFFICIAL"), InlineKeyboardButton("💠Latest Movies", url="https://t.me/+9bpv69G2aPMyNjFl")],
                     [InlineKeyboardButton("💌 Auto Group 💌", url="https://t.me/+CiRko1P4r8lkZWRl")]
                 ]
             ),
@@ -86,7 +86,7 @@ async def help_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/the_silent_teams"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/+wiPJ72U29pw3NDQ1")],
-                    [InlineKeyboardButton("OWNER", url="https://t.me/Robo_5_0"), InlineKeyboardButton("💠Latest Movies", url="https://t.me/+9bpv69G2aPMyNjFl")],
+                    [InlineKeyboardButton("OWNER", url="https://t.me/THE_DS_OFFICIAL"), InlineKeyboardButton("💠Latest Movies", url="https://t.me/+9bpv69G2aPMyNjFl")],
                     [InlineKeyboardButton("💌 Auto Group 💌", url="https://t.me/+CiRko1P4r8lkZWRl")]
                 ]
             ),
@@ -102,7 +102,7 @@ async def about_handler(bot, message):
             f"#NEW_USER: \n\nNew User [{message.from_user.first_name}](tg://user?id={message.from_user.id}) Started !!"
         )
     await message.reply_photo(
-            photo="https://te.legra.ph/file/1952edc669d200839995d.jpg",
+            photo="https://telegra.ph/file/8a5b34b684b753d8cf4c0.jpg",
             caption="""<b>sᴏᴍᴇ ʜɪᴅᴅᴇɴ ᴅᴇᴛᴀɪʟs😜</b>
 
 <b>╭━━━━━━━〔ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
@@ -120,7 +120,7 @@ async def about_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/the_silent_teams"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/+wiPJ72U29pw3NDQ1")],
-                    [InlineKeyboardButton("OWNER", url="https://t.me/Robo_5_0"), InlineKeyboardButton("💠Latest Movies", url="https://t.me/+9bpv69G2aPMyNjFl")],
+                    [InlineKeyboardButton("OWNER", url="https://t.me/THE_DS_OFFICIAL"), InlineKeyboardButton("💠Latest Movies", url="https://t.me/+9bpv69G2aPMyNjFl")],
                     [InlineKeyboardButton("💌 Auto Group 💌", url="https://t.me/+CiRko1P4r8lkZWRl")]
                 ]
             ),
