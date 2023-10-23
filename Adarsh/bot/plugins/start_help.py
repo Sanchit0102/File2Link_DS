@@ -30,7 +30,7 @@ async def start(b, m):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/the_silent_teams"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/+wiPJ72U29pw3NDQ1")],
-                    [InlineKeyboardButton("OWNER", url="https://t.me/Robo_5_0"), InlineKeyboardButton("💠 DEVELOPER", url="https://t.me/searchingshiv")],
+                    [InlineKeyboardButton("OWNER", url="https://t.me/Robo_5_0"), InlineKeyboardButton("💠 Latest Movies", url="https://t.me/+9bpv69G2aPMyNjFl")],
                     [InlineKeyboardButton("💌 Auto Group 💌", url="https://t.me/+CiRko1P4r8lkZWRl")]
                 ]
             ),
@@ -86,7 +86,7 @@ async def help_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/the_silent_teams"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/+wiPJ72U29pw3NDQ1")],
-                    [InlineKeyboardButton("OWNER", url="https://t.me/Robo_5_0"), InlineKeyboardButton("💠 DEVELOPER", url="https://t.me/searchingshiv")],
+                    [InlineKeyboardButton("OWNER", url="https://t.me/Robo_5_0"), InlineKeyboardButton("💠 Latest Movies", url="https://t.me/+9bpv69G2aPMyNjFl")],
                     [InlineKeyboardButton("💌 Auto Group 💌", url="https://t.me/+CiRko1P4r8lkZWRl")]
                 ]
             ),
@@ -120,7 +120,7 @@ async def about_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/the_silent_teams"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/+wiPJ72U29pw3NDQ1")],
-                    [InlineKeyboardButton("OWNER", url="https://t.me/Robo_5_0"), InlineKeyboardButton("💠 DEVELOPER", url="https://t.me/searchingshiv")],
+                    [InlineKeyboardButton("OWNER", url="https://t.me/Robo_5_0"), InlineKeyboardButton("💠 Latest Movies", url="https://t.me/+9bpv69G2aPMyNjFl")],
                     [InlineKeyboardButton("💌 Auto Group 💌", url="https://t.me/+CiRko1P4r8lkZWRl")]
                 ]
             ),
